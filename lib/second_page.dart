@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:route/first_page.dart';
 import 'package:route/third_page.dart';
 
-class second_page extends StatelessWidget {
-  const second_page({super.key});
+class SecondPage extends StatelessWidget {
+  const SecondPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +48,7 @@ class second_page extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const first_page()));
+                              builder: (context) => const FirstPage()));
                     },
                   ),
                   ElevatedButton(
@@ -57,7 +57,7 @@ class second_page extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const third_page()),
+                            builder: (context) => const ThirdPage()),
                       );
                     },
                   ),

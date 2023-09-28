@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:route/second_page.dart';
 
-class third_page extends StatelessWidget {
-  const third_page({super.key});
+class ThirdPage extends StatelessWidget {
+  const ThirdPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +32,7 @@ class third_page extends StatelessWidget {
               ),
               const Text(
                 "Наши врачи всегда наблюдают"
-                "за вашими показателями здоровья",
+                    "за вашими показателями здоровья",
                 style: TextStyle(color: Colors.black38, fontSize: 14),
                 textAlign: TextAlign.center,
               ),
@@ -43,7 +43,7 @@ class third_page extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const second_page()),
+                        builder: (context) => const SecondPage()),
                   );
                 },
               ),

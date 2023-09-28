@@ -12,11 +12,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: new ThemeData(
+        scaffoldBackgroundColor: Colors.white      ),
       home: Scaffold(
+        backgroundColor: Colors.red,
         appBar: AppBar(
           title: const Text('Lesson Route'),
         ),
-        body: first_page(),
+        body: FirstPage(),
       ),
     );
   }

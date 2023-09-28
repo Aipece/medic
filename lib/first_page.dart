@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:route/second_page.dart';
 
-class first_page extends StatelessWidget {
-  const first_page({super.key});
+class FirstPage extends StatelessWidget {
+  const FirstPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +41,7 @@ class first_page extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const second_page()),
+                        builder: (context) => const SecondPage()),
                   );
                 },
               ),
