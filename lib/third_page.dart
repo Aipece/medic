@@ -60,7 +60,7 @@ class ThirdPage extends StatelessWidget {
   }
 }
 
-class first_body extends StatelessWidget {
+class FirstBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container();
